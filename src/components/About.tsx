@@ -28,27 +28,27 @@ const About = () => {
   const features = [
     {
       icon: <Code size={24} />,
-      title: 'Frontend Development',
+      title: 'AI-Powered Development',
       description:
-        'Creating responsive and interactive user interfaces with React, Next.js, and modern CSS frameworks.',
+        'Building intelligent applications with machine learning, NLP, and computer vision using TensorFlow, PyTorch, and OpenAI APIs.',
     },
     {
       icon: <Database size={24} />,
-      title: 'Backend Development',
+      title: 'Scalable Architecture',
       description:
-        'Building robust APIs and server-side applications with Node.js, Express, and various databases.',
+        'Designing robust cloud-native systems with microservices, real-time processing, and distributed databases for high-performance applications.',
     },
     {
       icon: <Globe size={24} />,
-      title: 'Full-Stack Solutions',
+      title: 'Modern Web Solutions',
       description:
-        'Developing end-to-end web applications with seamless integration between frontend and backend.',
+        'Creating cutting-edge web applications with Next.js, TypeScript, and advanced features like WebRTC, WebGL, and progressive web technologies.',
     },
     {
       icon: <Smartphone size={24} />,
-      title: 'Mobile-First Design',
+      title: 'Intelligent User Experience',
       description:
-        'Ensuring optimal user experience across all devices with responsive and progressive design.',
+        'Integrating AI capabilities seamlessly into intuitive interfaces with real-time features, smart automation, and personalized user interactions.',
     },
   ]
 
@@ -64,27 +64,30 @@ const About = () => {
           <motion.div variants={itemVariants} className='text-center mb-16'>
             <h2 className='text-4xl md:text-5xl font-bold mb-6'>About Me</h2>
             <p className='text-lg text-gray-600 leading-relaxed'>
-              I&apos;m a passionate fullstack developer with expertise in modern
-              web technologies. I love creating beautiful, functional
-              applications that solve real-world problems and provide
-              exceptional user experiences.
+              Senior AI Engineer and Full-Stack Architect with 5+ years of
+              professional experience building production-grade applications. I
+              specialize in cutting-edge AI technologies including Large
+              Language Models, Computer Vision, and Multi-Agent Systems that
+              define the technological landscape of 2025.
             </p>
             <p className='text-lg text-gray-600 leading-relaxed'>
-              With a strong foundation in both frontend and backend development,
-              I specialize in React, Next.js, Node.js, and various databases.
-              I&apos;m always eager to learn new technologies and take on
-              challenging projects.
+              My expertise spans from architecting scalable cloud-native
+              solutions to implementing advanced AI pipelines using the latest
+              frameworks. I&apos;ve successfully delivered enterprise-level
+              applications leveraging GPT-4o, Claude 3.5, custom fine-tuned
+              models, and emerging technologies like WebGPU and Edge AI
+              computing.
             </p>
             <div className='flex flex-wrap gap-3 mt-6'>
               {[
-                'JavaScript',
-                'TypeScript',
-                'React',
-                'Next.js',
-                'Node.js',
-                'Python',
-                'PostgreSQL',
-                'MongoDB',
+                'GPT-4o/Claude 3.5',
+                'LangChain/LlamaIndex',
+                'Multi-Agent AI',
+                'WebGPU/WASM',
+                'Next.js 15',
+                'Edge Computing',
+                'Vector DBs',
+                'Serverless AI',
               ].map((tech) => (
                 <span
                   key={tech}
@@ -98,21 +101,24 @@ const About = () => {
 
           <div className='grid lg:grid-cols-2 gap-12 items-center'>
             <motion.div variants={itemVariants} className='space-y-6'>
-              <h3 className='text-2xl font-semibold mb-4'>My Journey</h3>
+              <h3 className='text-2xl font-semibold mb-4'>
+                Professional Journey
+              </h3>
               <p className='text-gray-600 leading-relaxed'>
-                With several years of experience in web development, I&apos;ve
-                had the privilege of working on diverse projects ranging from
-                small business websites to large-scale applications. My journey
-                began with a curiosity about how websites work, and it has
-                evolved into a passion for creating seamless digital
-                experiences.
+                With 5+ years in enterprise software development, I&apos;ve led
+                cross-functional teams in building AI-first applications that
+                serve millions of users. My career spans from startup
+                environments to Fortune 500 companies, where I&apos;ve
+                architected systems handling petabytes of data and implemented
+                ML models achieving 99.9% accuracy in production.
               </p>
               <p className='text-gray-600 leading-relaxed'>
-                I believe in writing clean, maintainable code and staying
-                up-to-date with the latest technologies and best practices. My
-                approach combines technical expertise with creative
-                problem-solving to deliver solutions that not only work well but
-                also provide exceptional user experiences.
+                I stay at the forefront of technology by continuously exploring
+                emerging paradigms like Multi-Agent AI, Edge Computing, and the
+                latest developments in foundation models. My approach combines
+                deep technical expertise with strategic thinking to deliver
+                solutions that drive business value and set new industry
+                standards.
               </p>
             </motion.div>
 

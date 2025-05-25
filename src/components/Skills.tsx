@@ -26,47 +26,47 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Frontend Development',
+      title: 'Advanced AI & LLMs',
       skills: [
-        { name: 'React/Next.js', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'JavaScript', level: 95 },
-        { name: 'HTML/CSS', level: 95 },
-        { name: 'Tailwind CSS', level: 90 },
-        { name: 'Vue.js', level: 80 },
+        { name: 'GPT-4o/Claude 3.5', level: 98 },
+        { name: 'LangChain/LlamaIndex', level: 95 },
+        { name: 'Multi-Agent Systems', level: 92 },
+        { name: 'RAG Architecture', level: 96 },
+        { name: 'Fine-tuning/PEFT', level: 90 },
+        { name: 'Vector Databases', level: 93 },
       ],
     },
     {
-      title: 'Backend Development',
+      title: 'ML & Computer Vision',
       skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Express.js', level: 88 },
-        { name: 'Python', level: 85 },
-        { name: 'FastAPI', level: 80 },
-        { name: 'GraphQL', level: 75 },
-        { name: 'REST APIs', level: 95 },
+        { name: 'PyTorch/TensorFlow', level: 96 },
+        { name: 'YOLO v8+/Detection', level: 94 },
+        { name: 'Transformer Models', level: 93 },
+        { name: 'Edge AI/TensorRT', level: 88 },
+        { name: 'MLOps/MLflow', level: 91 },
+        { name: 'Distributed Training', level: 89 },
       ],
     },
     {
-      title: 'Database & Tools',
+      title: 'Enterprise Architecture',
       skills: [
-        { name: 'PostgreSQL', level: 85 },
-        { name: 'MongoDB', level: 88 },
-        { name: 'Redis', level: 75 },
-        { name: 'Prisma', level: 85 },
-        { name: 'Docker', level: 80 },
-        { name: 'AWS', level: 75 },
+        { name: 'Kubernetes/Docker', level: 94 },
+        { name: 'Microservices/gRPC', level: 96 },
+        { name: 'AWS/GCP/Azure', level: 92 },
+        { name: 'Serverless/Edge', level: 90 },
+        { name: 'Real-time Systems', level: 95 },
+        { name: 'Performance Optimization', level: 97 },
       ],
     },
     {
-      title: 'Other Technologies',
+      title: 'Modern Development',
       skills: [
-        { name: 'Git/GitHub', level: 95 },
-        { name: 'Testing (Jest)', level: 85 },
-        { name: 'CI/CD', level: 80 },
-        { name: 'Figma', level: 85 },
-        { name: 'Socket.io', level: 80 },
-        { name: 'Stripe API', level: 85 },
+        { name: 'Next.js 15/React 19', level: 98 },
+        { name: 'TypeScript/Rust', level: 95 },
+        { name: 'WebGPU/WASM', level: 85 },
+        { name: 'Streaming/WebRTC', level: 90 },
+        { name: 'Database Design', level: 93 },
+        { name: 'Security/Auth', level: 91 },
       ],
     },
   ]
@@ -135,20 +135,22 @@ const Skills = () => {
             variants={itemVariants}
             className='mt-16 text-center bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-8'
           >
-            <h3 className='text-2xl font-semibold mb-4'>Always Learning</h3>
+            <h3 className='text-2xl font-semibold mb-4'>
+              Staying Ahead in 2025
+            </h3>
             <p className='text-gray-600 max-w-2xl mx-auto'>
-              Technology evolves rapidly, and I&apos;m committed to continuous
-              learning. I regularly explore new frameworks, tools, and best
-              practices to stay current with industry trends and deliver
-              cutting-edge solutions.
+              As a senior engineer, I continuously research and implement
+              cutting-edge technologies. Currently exploring Multimodal AI,
+              Quantum Computing applications, and the next generation of
+              foundation models that will shape the industry beyond 2025.
             </p>
             <div className='flex flex-wrap justify-center gap-3 mt-6'>
               {[
-                'Machine Learning',
-                'Blockchain',
-                'WebAssembly',
-                'Microservices',
-                'DevOps',
+                'Multimodal AI',
+                'Quantum ML',
+                'Neuromorphic Computing',
+                'Agent Swarms',
+                'WebGPU Compute',
               ].map((tech) => (
                 <span
                   key={tech}
@@ -162,8 +164,8 @@ const Skills = () => {
 
           <motion.div variants={itemVariants} className='text-center'>
             <p className='text-xl text-gray-600'>
-              Always learning and growing. Let&apos;s build something amazing
-              together!
+              Leading the future of AI-driven development. Ready to architect
+              your next breakthrough solution.
             </p>
           </motion.div>
         </motion.div>

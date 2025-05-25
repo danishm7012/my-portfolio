@@ -44,9 +44,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className='text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed'
           >
-            I&apos;m a passionate fullstack developer who loves building modern,
-            scalable web applications. Let&apos;s create something amazing
-            together.
+            Senior AI Engineer & Full-Stack Architect with 5+ years building
+            next-generation applications. Specializing in LLMs, Computer Vision,
+            and scalable cloud architecture that powers the future of 2025.
           </motion.p>
 
           <motion.div
