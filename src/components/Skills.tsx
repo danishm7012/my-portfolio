@@ -71,25 +71,6 @@ const Skills = () => {
     },
   ]
 
-  const SkillBar = ({ name, level }: { name: string; level: number }) => {
-    return (
-      <div className='mb-4'>
-        <div className='flex justify-between mb-2'>
-          <span className='text-sm font-medium text-gray-700'>{name}</span>
-          <span className='text-sm text-gray-500'>{level}%</span>
-        </div>
-        <div className='w-full bg-gray-200 rounded-full h-2'>
-          <motion.div
-            initial={{ width: 0 }}
-            animate={inView ? { width: `${level}%` } : { width: 0 }}
-            transition={{ duration: 1, delay: 0.5 }}
-            className='bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full'
-          />
-        </div>
-      </div>
-    )
-  }
-
   return (
     <section id='skills' className='py-20 bg-white'>
       <div className='container-max section-padding'>
@@ -117,7 +98,6 @@ const Skills = () => {
                 className='bg-white p-6 rounded-xl shadow-lg'
               >
                 <div className='flex items-center mb-4'>
-                  <div className='text-blue-600 mr-3'>{category.icon}</div>
                   <h3 className='text-xl font-semibold text-gray-900'>
                     {category.title}
                   </h3>
@@ -157,7 +137,7 @@ const Skills = () => {
           >
             <h3 className='text-2xl font-semibold mb-4'>Always Learning</h3>
             <p className='text-gray-600 max-w-2xl mx-auto'>
-              Technology evolves rapidly, and I'm committed to continuous
+              Technology evolves rapidly, and I&apos;m committed to continuous
               learning. I regularly explore new frameworks, tools, and best
               practices to stay current with industry trends and deliver
               cutting-edge solutions.

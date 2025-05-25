@@ -100,11 +100,12 @@ const About = () => {
             <motion.div variants={itemVariants} className='space-y-6'>
               <h3 className='text-2xl font-semibold mb-4'>My Journey</h3>
               <p className='text-gray-600 leading-relaxed'>
-                With several years of experience in web development, I've had
-                the privilege of working on diverse projects ranging from small
-                business websites to large-scale applications. My journey began
-                with a curiosity about how websites work, and it has evolved
-                into a passion for creating seamless digital experiences.
+                With several years of experience in web development, I&apos;ve
+                had the privilege of working on diverse projects ranging from
+                small business websites to large-scale applications. My journey
+                began with a curiosity about how websites work, and it has
+                evolved into a passion for creating seamless digital
+                experiences.
               </p>
               <p className='text-gray-600 leading-relaxed'>
                 I believe in writing clean, maintainable code and staying

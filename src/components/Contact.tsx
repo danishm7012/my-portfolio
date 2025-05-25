@@ -116,8 +116,8 @@ const Contact = () => {
               Get In Touch
             </h2>
             <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
-              Ready to work together? I'd love to hear about your project and
-              discuss how I can help bring your ideas to life.
+              Ready to work together? I&apos;d love to hear about your project
+              and discuss how I can help bring your ideas to life.
             </p>
           </motion.div>
 
