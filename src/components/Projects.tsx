@@ -31,8 +31,7 @@ const Projects = () => {
       title: 'E-Commerce Platform',
       description:
         'A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and secure payments.',
-      image:
-        'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&h=400',
+      image: 'https://picsum.photos/600/400?random=1',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Express'],
       githubUrl: 'https://github.com',
       liveUrl: 'https://example.com',
@@ -41,8 +40,7 @@ const Projects = () => {
       title: 'Task Management App',
       description:
         'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image:
-        'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=600&h=400',
+      image: 'https://picsum.photos/600/400?random=2',
       technologies: [
         'Next.js',
         'TypeScript',
@@ -57,8 +55,7 @@ const Projects = () => {
       title: 'Weather Dashboard',
       description:
         'A responsive weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics using multiple APIs.',
-      image:
-        'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=600&h=400',
+      image: 'https://picsum.photos/600/400?random=3',
       technologies: ['React', 'Chart.js', 'OpenWeather API', 'Tailwind CSS'],
       githubUrl: 'https://github.com',
       liveUrl: 'https://example.com',
@@ -67,8 +64,7 @@ const Projects = () => {
       title: 'Social Media Dashboard',
       description:
         'A comprehensive social media analytics dashboard with data visualization, user engagement metrics, and automated reporting.',
-      image:
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400',
+      image: 'https://picsum.photos/600/400?random=4',
       technologies: ['Vue.js', 'D3.js', 'Python', 'FastAPI', 'Redis'],
       githubUrl: 'https://github.com',
       liveUrl: 'https://example.com',
@@ -77,8 +73,7 @@ const Projects = () => {
       title: 'Real Estate Platform',
       description:
         'A modern real estate platform with property listings, virtual tours, mortgage calculator, and advanced search filters.',
-      image:
-        'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&h=400',
+      image: 'https://picsum.photos/600/400?random=5',
       technologies: ['Next.js', 'Mapbox', 'Prisma', 'Cloudinary', 'Stripe'],
       githubUrl: 'https://github.com',
       liveUrl: 'https://example.com',
@@ -87,8 +82,7 @@ const Projects = () => {
       title: 'Learning Management System',
       description:
         'An educational platform with course creation, video streaming, progress tracking, and interactive quizzes for online learning.',
-      image:
-        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&h=400',
+      image: 'https://picsum.photos/600/400?random=6',
       technologies: ['React', 'Node.js', 'MongoDB', 'AWS S3', 'JWT'],
       githubUrl: 'https://github.com',
       liveUrl: 'https://example.com',
