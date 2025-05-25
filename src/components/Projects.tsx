@@ -31,7 +31,8 @@ const Projects = () => {
       title: 'Enterprise Multi-Agent AI Platform',
       description:
         'Production-scale AI orchestration platform serving 10M+ users with GPT-4o, Claude 3.5, and custom fine-tuned models. Features autonomous agent coordination, real-time inference optimization, and enterprise-grade security with 99.99% uptime.',
-      image: 'https://picsum.photos/600/400?random=21',
+      image:
+        'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600&h=400',
       technologies: [
         'LangChain',
         'GPT-4o',
@@ -47,7 +48,8 @@ const Projects = () => {
       title: 'Real-time Computer Vision Pipeline',
       description:
         'Advanced CV system processing 1M+ images daily with custom YOLO v8+ models and WebGPU acceleration. Deployed on edge devices with 50ms latency, featuring automated model versioning and A/B testing infrastructure.',
-      image: 'https://picsum.photos/600/400?random=22',
+      image:
+        'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=600&h=400',
       technologies: [
         'YOLO v8+',
         'WebGPU',
@@ -63,7 +65,8 @@ const Projects = () => {
       title: 'Autonomous Trading Infrastructure',
       description:
         'High-frequency AI trading platform with microsecond latency, processing $50M+ daily volume. Features sentiment analysis from 100+ sources, risk management algorithms, and real-time market prediction using transformer architectures.',
-      image: 'https://picsum.photos/600/400?random=23',
+      image:
+        'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=600&h=400',
       technologies: [
         'Rust',
         'ClickHouse',
@@ -79,7 +82,8 @@ const Projects = () => {
       title: 'Next-Gen RAG Knowledge System',
       description:
         'Enterprise knowledge platform with advanced RAG architecture, supporting 500+ concurrent users. Features semantic chunking, multi-modal embeddings, and real-time knowledge graph updates with 95% accuracy in complex queries.',
-      image: 'https://picsum.photos/600/400?random=24',
+      image:
+        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&h=400',
       technologies: [
         'LlamaIndex',
         'ChromaDB',
@@ -95,7 +99,8 @@ const Projects = () => {
       title: 'Serverless AI Content Engine',
       description:
         'Scalable content generation platform with GPT-4o, DALL-E 3, and custom models. Auto-scales to handle viral traffic spikes, features multi-language support, brand voice adaptation, and generates 1M+ pieces monthly.',
-      image: 'https://picsum.photos/600/400?random=25',
+      image:
+        'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&h=400',
       technologies: [
         'Next.js 15',
         'Vercel AI SDK',
@@ -111,7 +116,8 @@ const Projects = () => {
       title: 'Distributed ML Training Platform',
       description:
         'Cloud-native platform for distributed model training with automatic resource optimization. Supports multi-GPU clusters, gradient compression, and federated learning with 10x faster training times and cost optimization.',
-      image: 'https://picsum.photos/600/400?random=26',
+      image:
+        'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&w=600&h=400',
       technologies: [
         'PyTorch',
         'Ray',
