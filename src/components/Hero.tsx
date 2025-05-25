@@ -42,10 +42,11 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className='text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto'
+            className='text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed'
           >
-            Fullstack Developer crafting exceptional digital experiences with
-            modern web technologies
+            I&apos;m a passionate fullstack developer who loves building modern,
+            scalable web applications. Let&apos;s create something amazing
+            together.
           </motion.p>
 
           <motion.div

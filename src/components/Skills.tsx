@@ -110,22 +110,40 @@ const Skills = () => {
           </motion.div>
 
           <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-            {skillCategories.map((category, categoryIndex) => (
+            {skillCategories.map((category) => (
               <motion.div
                 key={category.title}
                 variants={itemVariants}
-                className='bg-gray-50 rounded-xl p-6 card-hover'
+                className='bg-white p-6 rounded-xl shadow-lg'
               >
-                <h3 className='text-xl font-semibold mb-6 text-center gradient-text'>
-                  {category.title}
-                </h3>
+                <div className='flex items-center mb-4'>
+                  <div className='text-blue-600 mr-3'>{category.icon}</div>
+                  <h3 className='text-xl font-semibold text-gray-900'>
+                    {category.title}
+                  </h3>
+                </div>
                 <div className='space-y-4'>
                   {category.skills.map((skill) => (
-                    <SkillBar
-                      key={skill.name}
-                      name={skill.name}
-                      level={skill.level}
-                    />
+                    <div key={skill.name}>
+                      <div className='flex justify-between items-center mb-2'>
+                        <span className='text-gray-700 font-medium'>
+                          {skill.name}
+                        </span>
+                        <span className='text-blue-600 font-medium'>
+                          {skill.level}%
+                        </span>
+                      </div>
+                      <div className='w-full bg-gray-200 rounded-full h-2'>
+                        <motion.div
+                          className='bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full'
+                          initial={{ width: 0 }}
+                          animate={
+                            inView ? { width: `${skill.level}%` } : { width: 0 }
+                          }
+                          transition={{ duration: 1, delay: 0.5 }}
+                        />
+                      </div>
+                    </div>
                   ))}
                 </div>
               </motion.div>
@@ -160,6 +178,13 @@ const Skills = () => {
                 </span>
               ))}
             </div>
+          </motion.div>
+
+          <motion.div variants={itemVariants} className='text-center'>
+            <p className='text-xl text-gray-600'>
+              Always learning and growing. Let&apos;s build something amazing
+              together!
+            </p>
           </motion.div>
         </motion.div>
       </div>

@@ -63,11 +63,37 @@ const About = () => {
         >
           <motion.div variants={itemVariants} className='text-center mb-16'>
             <h2 className='text-4xl md:text-5xl font-bold mb-6'>About Me</h2>
-            <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
-              I'm a passionate fullstack developer with expertise in modern web
-              technologies. I love creating digital solutions that make a
-              difference.
+            <p className='text-lg text-gray-600 leading-relaxed'>
+              I&apos;m a passionate fullstack developer with expertise in modern
+              web technologies. I love creating beautiful, functional
+              applications that solve real-world problems and provide
+              exceptional user experiences.
             </p>
+            <p className='text-lg text-gray-600 leading-relaxed'>
+              With a strong foundation in both frontend and backend development,
+              I specialize in React, Next.js, Node.js, and various databases.
+              I&apos;m always eager to learn new technologies and take on
+              challenging projects.
+            </p>
+            <div className='flex flex-wrap gap-3 mt-6'>
+              {[
+                'JavaScript',
+                'TypeScript',
+                'React',
+                'Next.js',
+                'Node.js',
+                'Python',
+                'PostgreSQL',
+                'MongoDB',
+              ].map((tech) => (
+                <span
+                  key={tech}
+                  className='px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium'
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </motion.div>
 
           <div className='grid lg:grid-cols-2 gap-12 items-center'>
@@ -87,36 +113,17 @@ const About = () => {
                 problem-solving to deliver solutions that not only work well but
                 also provide exceptional user experiences.
               </p>
-              <div className='flex flex-wrap gap-3 mt-6'>
-                {[
-                  'JavaScript',
-                  'TypeScript',
-                  'React',
-                  'Next.js',
-                  'Node.js',
-                  'Python',
-                  'PostgreSQL',
-                  'MongoDB',
-                ].map((tech) => (
-                  <span
-                    key={tech}
-                    className='px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium'
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
             </motion.div>
 
             <motion.div
               variants={itemVariants}
               className='grid grid-cols-1 md:grid-cols-2 gap-6'
             >
-              {features.map((feature, index) => (
+              {features.map((feature) => (
                 <motion.div
                   key={feature.title}
                   variants={itemVariants}
-                  className='p-6 bg-gray-50 rounded-lg card-hover'
+                  className='bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300'
                 >
                   <div className='text-blue-600 mb-4'>{feature.icon}</div>
                   <h4 className='text-lg font-semibold mb-2'>

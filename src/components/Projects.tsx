@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { ExternalLink, Github } from 'lucide-react'
+import Image from 'next/image'
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -104,27 +105,26 @@ const Projects = () => {
           variants={containerVariants}
         >
           <motion.div variants={itemVariants} className='text-center mb-16'>
-            <h2 className='text-4xl md:text-5xl font-bold mb-6'>
-              Featured Projects
-            </h2>
+            <h2 className='text-4xl md:text-5xl font-bold mb-6'>My Projects</h2>
             <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
-              Here are some of the projects I've worked on that showcase my
-              skills and passion for development.
+              Here are some of the projects I&apos;ve built using various
+              technologies and frameworks.
             </p>
           </motion.div>
 
-          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            {projects.map((project, index) => (
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+            {projects.map((project) => (
               <motion.div
                 key={project.title}
                 variants={itemVariants}
-                className='bg-white rounded-xl overflow-hidden shadow-lg card-hover'
+                className='group relative bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2'
               >
-                <div className='relative overflow-hidden'>
-                  <img
+                <div className='relative h-48 overflow-hidden'>
+                  <Image
                     src={project.image}
                     alt={project.title}
-                    className='w-full h-48 object-cover transition-transform duration-300 hover:scale-110'
+                    fill
+                    className='object-cover group-hover:scale-110 transition-transform duration-300'
                   />
                   <div className='absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center opacity-0 hover:opacity-100'>
                     <div className='flex space-x-4'>

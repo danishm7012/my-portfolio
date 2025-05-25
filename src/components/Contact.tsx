@@ -125,11 +125,13 @@ const Contact = () => {
             {/* Contact Information */}
             <motion.div variants={itemVariants} className='space-y-8'>
               <div>
-                <h3 className='text-2xl font-semibold mb-6'>Let's Connect</h3>
+                <h3 className='text-2xl font-semibold mb-6'>
+                  Let&apos;s Connect
+                </h3>
                 <p className='text-gray-600 mb-8'>
-                  I'm always excited to discuss new opportunities, whether it's
-                  a full-time position, freelance project, or just a chat about
-                  technology. Feel free to reach out!
+                  I&apos;m always excited to discuss new opportunities, whether
+                  it&apos;s a full-time position, freelance project, or just a
+                  chat about technology. Feel free to reach out!
                 </p>
               </div>
 
